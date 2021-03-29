@@ -1,0 +1,9 @@
+applications:
+- name: frontend
+  path: .\publish
+  buildpacks:
+  - https://github.com/cloudfoundry/dotnet-core-buildpack
+  services:
+  - wavefront-proxy
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
