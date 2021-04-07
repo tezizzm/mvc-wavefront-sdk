@@ -122,7 +122,7 @@ In this repository we setup a simple application that will be instrumented using
 
       ```json
       "wavefront-proxy": {
-         "Hostname": "IP/HOST Name of Your WavefrontP Proxy",
+         "Hostname": "IP/HOST Name of Your Wavefront Proxy",
          "Application": "Frontend App", 
          "Service": "Frontend UI"
       }
