@@ -134,7 +134,7 @@ In this repository we setup a simple application that will be instrumented using
    dotnet publish -o .\publish
    ```
 
-7. Create a Yaml file called manifest.yml with the following contents:
+7. Assuming you already have Wavefront Proxy provisoned on TAS with the name wavefront-proxy, create a Yaml file called manifest.yml with the following contents:
 
    ```yml
    applications:
