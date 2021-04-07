@@ -90,8 +90,6 @@ In this repository we setup a simple application that will be instrumented using
                   .ReportingIntervalSeconds(waveFrontProxyConfiguration.ReportingIntervalSeconds)
                   .Build(wavefrontSender);
 
-               System.Console.WriteLine(wfAspNetCoreReporter);
-
                var wavefrontSpanReporter = new WavefrontSpanReporter.Builder()
                .Build(wavefrontSender);
 
