@@ -25,7 +25,7 @@ In this repository we setup a simple application that will be instrumented using
    dotnet add package Wavefront.AspNetCore.SDK.CSharp
    ```
 
-   Create a file named `WavefrontExtensions.cs` with the following contents.  Copy the file to root of *both* projects.  This file includes SDK code that allows us to connect to a Wavefront Proxy or to Wavefront with Direct Ingestion.
+   Create a file named `WavefrontExtensions.cs` with the following contents.  Copy the file to root of the project.  This file includes SDK code that allows us to connect to a Wavefront Proxy or to Wavefront with Direct Ingestion.
 
    ```cs
    using Microsoft.Extensions.Configuration;
